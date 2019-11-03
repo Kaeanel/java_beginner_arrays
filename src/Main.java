@@ -5,6 +5,8 @@ public class Main {
         // Include Ben, Alena, Pasan
         String[] friends = {"Ben","Alena","Pasan"};
         for (String friend : friends){
+            System.out.printf("Hey %s! The movie starts at 19:00, see you there! %n",
+                              friend);
 
         }
     }
